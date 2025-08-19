@@ -40,3 +40,7 @@ def main():
     with open(os.path.join(args.out, "meta.pkl"), "wb") as f:
         pickle.dump({"texts": texts, "metas":metas}, f)
     print(f"Index saved to", args.out)
+
+    if __name__ == "__main__":
+        main()
+    

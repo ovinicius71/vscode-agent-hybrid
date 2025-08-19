@@ -1,0 +1,9 @@
+{
+    "name": "vscode-agent-extension",
+    "displayName": "Agent Hybrid POC",
+    "version": "0.0.1",
+    "engines": {"vscode": "^1.70.0"},
+    "activationEvents": ["onLanguage:javascript", "onCommand:agent.setApiKey"],
+    "main": "./out/extension.js",
+    "contributes": { }
+}
